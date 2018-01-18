@@ -42,5 +42,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.listviewcool', {
+        views: {
+            app: {
+                controller: 'app_listviewcool',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.listviewcool');
+                }
+            }
+        }
     });
 });
