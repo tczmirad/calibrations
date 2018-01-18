@@ -11,6 +11,12 @@
       "selector": "#MainContent_lbFilters span",
       "control": "exists",
       "selectContains": "Ukryj filtry"
+    },
+    "ClickNow": {
+      "type": "action",
+      "selector": "#MainContent_lbNow span",
+      "control": "action.link",
+      "selectContains": "Teraz"
     }
   },
   "connect": []
