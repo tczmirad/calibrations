@@ -17,6 +17,21 @@
       "selector": "#MainContent_lbNow span",
       "control": "action.link",
       "selectContains": "Teraz"
+    },
+    "Items": {
+      "type": "array",
+      "selectorAll": "table.main-grid tbody tr",
+      "items": {
+        "type": "object",
+        "properties": {
+          "ID": {
+            "type": "string",
+            "selector": ".main-grid tbody tr td",
+            "control": "property.innerText",
+            "selectIndex": 2
+          }
+        }
+      }
     }
   },
   "connect": []
