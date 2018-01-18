@@ -51,5 +51,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.userprofilecool', {
+        views: {
+            app: {
+                controller: 'app_userprofilecool',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.userprofilecool');
+                }
+            }
+        }
     });
 });

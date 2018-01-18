@@ -67,5 +67,98 @@
         }
       }
     }
+  },
+  "userprofilecool": {
+    "type": "object",
+    "comment": "UserProfile",
+    "properties": {
+      "issues": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "issueTitle": {
+              "type": "string",
+              "label": "IssueTitle"
+            },
+            "issueStatus": {
+              "type": "string",
+              "label": "IssueStatus"
+            },
+            "issueDescription": {
+              "type": "string",
+              "label": "IssueDescription"
+            },
+            "issueAction": {
+              "type": "action"
+            }
+          }
+        },
+        "label": "Profile1Issues"
+      },
+      "name": {
+        "type": "string",
+        "label": "Name"
+      },
+      "title": {
+        "type": "string",
+        "label": "Title"
+      },
+      "description": {
+        "type": "string",
+        "label": "Description"
+      },
+      "email": {
+        "type": "string",
+        "label": "Email"
+      },
+      "department": {
+        "type": "string",
+        "label": "Department"
+      },
+      "location": {
+        "type": "string",
+        "label": "Location"
+      },
+      "phone": {
+        "type": "string",
+        "label": "Phone"
+      },
+      "manager": {
+        "type": "string",
+        "label": "Manager"
+      },
+      "reports": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "label": "Name"
+            },
+            "action": {
+              "type": "action"
+            }
+          }
+        },
+        "label": "Reports"
+      },
+      "action1": {
+        "type": "action"
+      },
+      "action2": {
+        "type": "action"
+      },
+      "action3": {
+        "type": "action"
+      },
+      "action4": {
+        "type": "action"
+      },
+      "action5": {
+        "type": "action"
+      }
+    }
   }
 }

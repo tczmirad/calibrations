@@ -1,0 +1,185 @@
+<ion-view data-comp-id="ionic-view.1">
+    <ion-nav-bar class=" bar-positive" data-comp-id="nav-bar.1">
+        <ion-nav-buttons side="left">
+            <button class="button button-icon ion-ios-arrow-back" data-comp-id="button.1"
+                ng-click="app.go('app.peoplelist')"></button>
+        </ion-nav-buttons>
+        <ion-nav-title data-comp-id="nav-title.1">Directory Profile</ion-nav-title>
+        <ion-nav-buttons side="right">
+            <button class="button button-icon ion-home" data-comp-id="button.2"
+                ng-click="app.call('home.goHome')"></button>
+        </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-content data-comp-id="ionic-content.1"
+        style="background-color: rgb(255, 255, 255);">
+        <div class="row" data-comp-id="row.1" style="margin: 10px 0px;">
+            <img data-comp-id="image.1" data-img=""
+                ng-src="images/userprofilecool/shutterstock_188455595_03.jpg"
+                style="margin: 0px 10px; width: 100px; height: 100px;">
+            <div class="col" data-comp-id="column.1" style="padding: 10px;">
+                <div data-comp-id="text.1" ng-bind="data.name"
+                    style="font-size: 22px; color: rgb(119, 119, 119); margin: 0px 0px 5px;">Bob Turtle</div>
+                <div data-comp-id="text.2" ng-bind="data.title"
+                    style="margin: 0px 0px 5px; font-size: 16px;">Account Manager</div>
+                <div data-comp-id="text.3" ng-bind="data.description"
+                    style="color: rgb(136, 136, 136);">Brief
+                    about the person, role, contributions etc. Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit.</div>
+            </div>
+        </div>
+        <div class="row" data-comp-id="row.2"
+            ng-click="app.action('userprofile', 'action1', this)"
+            style="margin: 0px; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(225, 225, 225); padding: 5px;">
+            <i class="icon positive ion-email" data-comp-id="icon.1"
+                style="float: left; font-size: 20px; margin: 10px;"></i>
+            <div class="col text-left" data-comp-id="column.2" style="padding: 10px 0px;">
+                <div data-comp-id="text.4" ng-bind="data.email"
+                    style="float: left; font-size: 16px;">lhunt@company.com</div>
+            </div>
+            <i class="icon ion-ios-arrow-forward positive" data-comp-id="icon.2"
+                style="font-size: 28px; margin: 5px;"></i>
+        </div>
+        <div class="row nocolor-bg" data-comp-id="row.3"
+            style="margin: 0px; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(225, 225, 225); padding: 5px;">
+            <div class="col" data-comp-id="column.3"
+                style="padding: 5px 0px 0px; margin: 0px;">
+                <div class=" dark" data-comp-id="text.5"
+                    style="font-size: 16px; margin: 0px 10px;">Work</div>
+            </div>
+        </div>
+        <div class="row" data-comp-id="row.4"
+            ng-click="app.action('userprofile', 'action2', this)" style="margin: 0px;">
+            <i class="icon ion-ios-telephone positive" data-comp-id="icon.3"
+                style="float: left; font-size: 20px; margin: 10px;"></i>
+            <div class="col text-left" data-comp-id="column.4" style="padding: 10px 0px;">
+                <div data-comp-id="text.6" ng-bind="data.phone"
+                    style="float: left; font-size: 16px;">+1 415-555-9876</div>
+            </div>
+            <i class="icon ion-ios-arrow-forward positive" data-comp-id="icon.4"
+                style="font-size: 28px; margin: 5px;"></i>
+        </div>
+        <div class="row nocolor-bg" data-comp-id="row.5"
+            style="border-top-width: 1px; border-top-style: solid; border-top-color: rgb(225, 225, 225); padding: 5px; margin: 0px;">
+            <div class="col" data-comp-id="column.5" style="padding: 5px 0px 0px;">
+                <div class=" dark" data-comp-id="text.7"
+                    style="font-size: 16px; margin: 0px 10px;">Manager</div>
+            </div>
+        </div>
+        <div class="row" data-comp-id="row.6"
+            ng-click="app.action('userprofile', 'action3', this)"
+            style="margin: 0px; padding: 5px;">
+            <i class="icon positive ion-ios-contact" data-comp-id="icon.5"
+                style="float: left; font-size: 20px; margin: 10px;"></i>
+            <div class="col" data-comp-id="column.6" style="padding: 10px 0px;">
+                <div data-comp-id="text.8" ng-bind="data.manager"
+                    style="float: left; font-size: 16px;">Linda Ruiz</div>
+            </div>
+            <i class="icon ion-ios-arrow-forward positive" data-comp-id="icon.6"
+                style="font-size: 28px; margin: 5px;"></i>
+        </div>
+        <div class="row nocolor-bg" data-comp-id="row.7"
+            style="border-top-width: 1px; border-top-style: solid; border-top-color: rgb(225, 225, 225); padding: 5px; margin: 0px;">
+            <div class="col" data-comp-id="column.7" style="padding: 5px 0px 0px;">
+                <div class=" dark" data-comp-id="text.9"
+                    style="font-size: 16px; margin: 0px 10px;">Department</div>
+            </div>
+        </div>
+        <div class="row" data-comp-id="row.8" style="margin: 0px; padding: 5px;">
+            <i class="icon ion-ios-navigate dark" data-comp-id="icon.7"
+                style="float: left; font-size: 20px; margin: 10px; color: rgb(127, 127, 127);"></i>
+            <div class="col text-left" data-comp-id="column.8" style="padding: 10px 0px;">
+                <div data-comp-id="text.10" ng-bind="data.department"
+                    style="float: left; font-size: 16px;">NA West</div>
+            </div>
+        </div>
+        <div class="row nocolor-bg" data-comp-id="row.9"
+            style="margin: 0px; padding: 5px; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(225, 225, 225);">
+            <div class="col" data-comp-id="column.9" style="padding: 5px 0px 0px;">
+                <div class=" dark" data-comp-id="text.11"
+                    style="font-size: 16px; margin: 0px 10px;">Location</div>
+            </div>
+        </div>
+        <div class="row" data-comp-id="row.10"
+            ng-click="app.action('userprofile', 'action4', this)"
+            style="margin: 0px; padding: 5px;">
+            <i class="icon positive ion-ios-location" data-comp-id="icon.8"
+                style="float: left; font-size: 20px; margin: 10px;"></i>
+            <div class="col text-left" data-comp-id="column.10" style="padding: 10px 0px;">
+                <div data-comp-id="text.12" ng-bind="data.location"
+                    style="float: left; font-size: 16px;">Remote</div>
+            </div>
+            <i class="icon ion-ios-arrow-forward positive" data-comp-id="icon.9"
+                style="font-size: 28px; margin: 5px;"></i>
+        </div>
+        <div class="row nocolor-bg" data-comp-id="row.11"
+            style="margin: 0px; padding: 5px; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(225, 225, 225);">
+            <div class="col" data-comp-id="column.11" style="padding: 5px 0px 0px;">
+                <div class=" dark" data-comp-id="text.13"
+                    style="font-size: 16px; margin: 0px 10px;">Direct Reports</div>
+            </div>
+        </div>
+        <div class="row" data-comp-id="row.12"
+            ng-click="app.action('userprofile', 'data.reports[item].action', this)"
+            ng-repeat="item in data.reports" style="margin: 0px; padding: 5px;">
+            <i class="icon positive ion-ios-contact" data-comp-id="icon.10"
+                style="float: left; font-size: 20px; margin: 10px;"></i>
+            <div class="col text-left" data-comp-id="column.12" style="padding: 10px 0px;">
+                <div data-comp-id="text.14" ng-bind="item.name"
+                    style="float: left; font-size: 16px;">Veronica Harper</div>
+            </div>
+            <i class="icon ion-ios-arrow-forward positive" data-comp-id="icon.11"
+                style="font-size: 28px; margin: 5px;"></i>
+        </div>
+        <div data-comp-id="div.1"
+            style="margin: 4% 0%; border-top: 1px solid rgb(221, 221, 221);">
+            <div class="row stable-bg" data-comp-id="row.13"
+                ng-click="app.action('userprofile', 'action5', this)"
+                style="border-bottom: 1px solid rgb(221, 221, 221);">
+                <div class="col" data-comp-id="column.13">
+                    <div data-comp-id="text.15"
+                        style="float: left; margin: 0% 0% 0% 8%; font-size: 16px; color: rgb(51, 51, 51);">14</div>
+                    <div data-comp-id="text.16"
+                        style="float: left; margin: 0% 0% 0% 4%; font-size: 16px; color: rgb(51, 51, 51);">Issues</div>
+                </div>
+                <div class="col" data-comp-id="column.14">
+                    <i class="icon ion-ios-arrow-right positive" data-comp-id="icon.12"
+                        style="float: right; font-size: 20px; margin: 0% 8%;"></i>
+                    <div class=" positive" data-comp-id="text.17"
+                        style="float: right; font-size: 16px; margin: 0%;">see all</div>
+                </div>
+            </div>
+            <div class=" light-bg" data-comp-id="div.2"
+                ng-click="app.action('userprofile', 'data.issues[item].issueAction', this)"
+                ng-repeat="item in data.issues">
+                <div class="row" data-comp-id="row.14">
+                    <div class="col col-50" data-comp-id="column.15" style="margin: 0% 0% 0% 4%;">
+                        <div class=" energized" data-comp-id="text.18" ng-bind="item.IssueTitle"
+                            style="font-size: 18px; margin: 8px 0px 0px;">Some text</div>
+                    </div>
+                    <div class="col text-right" data-comp-id="column.16">
+                        <i class="icon ion-information-circled assertive" data-comp-id="icon.13"
+                            ng-if="item.IssueStatus==&quot;Open&quot;"
+                            style="float: right; font-size: 12px; margin: 0px 10px;"></i>
+                        <i class="icon ion-information-circled" data-comp-id="icon.14"
+                            ng-if="item.IssueStatus==&quot;Closed&quot;"
+                            style="float: right; font-size: 12px; margin: 8px 10px; color: rgb(102, 102, 102);"></i>
+                        <div data-comp-id="text.19" ng-bind="item.IssueStatus"
+                            ng-if="item.IssueStatus==&quot;Closed&quot;"
+                            style="margin: 7px 8px 0px -4px; color: rgb(136, 136, 136);">Closed&nbsp;</div>
+                        <div data-comp-id="text.20" ng-bind="item.IssueStatus"
+                            ng-if="item.IssueStatus==&quot;Open&quot;">Some text</div>
+                    </div>
+                </div>
+                <div class="row" data-comp-id="row.15"
+                    style="border-bottom: 1px solid rgb(238, 238, 238);">
+                    <div class="col" data-comp-id="column.17" style="margin: 0% 4% 4%;">
+                        <div data-comp-id="text.21"
+                            style="font-size: 16px; color: rgb(102, 102, 102); line-height: 24px;"></div>
+                        <div data-comp-id="text.22" ng-bind="item.IssueDescription"
+                            style="font-size: 16px; line-height: 24px; color: rgb(102, 102, 102);">Some text</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

@@ -34,6 +34,13 @@
       "sourceScreenId": "app.login.logincool",
       "sourceAppId": "universaltemplates",
       "model": "login"
+    },
+    {
+      "id": "userprofilecool",
+      "name": "UserProfile-Cool",
+      "sourceScreenId": "app.userprofile.userprofilecool",
+      "sourceAppId": "universaltemplates",
+      "model": "userprofilecool"
     }
   ],
   "sourceAppId": "_blank",
