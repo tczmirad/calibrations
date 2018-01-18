@@ -34,14 +34,5 @@
       }
     }
   },
-  "connect": [
-    {
-      "match": [
-        "isLanding"
-      ],
-      "screens": [
-        "landing"
-      ]
-    }
-  ]
+  "connect": []
 }
