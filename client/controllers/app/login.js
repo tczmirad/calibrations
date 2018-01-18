@@ -5,7 +5,8 @@ function app_login($scope, app, $q) {
     if (!$scope.data) {
         $scope.data = {};
     } 
-  
+    
+    app.call("login.logout")
     $scope.login = function () {
         app.call("login.loginBasic")
         $scope.doLogin({
