@@ -1,5 +1,4 @@
-{
- "tickets": [
+{"tickets": [
   {
    "$i": 0,
    "number": "R004281",
@@ -24,6 +23,5 @@
    "type": "Kalibracja",
    "group": "-"
   }
- ],
- "isLanding": true
-}
+ ]
+ }
