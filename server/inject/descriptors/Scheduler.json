@@ -29,6 +29,12 @@
             "selector": ".main-grid tbody tr td",
             "control": "property.innerText",
             "selectIndex": 2
+          },
+          "SerialNumber": {
+            "type": "string",
+            "selector": ".main-grid tbody tr td",
+            "control": "property.innerText",
+            "selectIndex": 4
           }
         }
       }
