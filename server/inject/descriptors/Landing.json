@@ -1,5 +1,11 @@
 {
   "type": "object",
-  "properties": {},
+  "properties": {
+    "IsLanding": {
+      "type": "identifier",
+      "selector": "html",
+      "control": "url.Tracker"
+    }
+  },
   "connect": []
 }
