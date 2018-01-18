@@ -7,7 +7,7 @@ function app_login($scope, app, $q) {
     } 
   
     $scope.login = function () {
-        
+        app.call("login.loginBasic")
         $scope.doLogin({
             username: $scope.data.username,
             password: $scope.data.password
