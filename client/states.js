@@ -33,14 +33,5 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.scheduler', {
-        views: {
-            app: {
-                controller: 'app_scheduler',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.scheduler');
-                }
-            }
-        }
     });
 });
