@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "properties": {
+    "IsScheduler": {
+      "type": "identifier",
+      "selector": "html",
+      "control": "url.CalibrationsSchedule"
+    },
+    "AreFiltersShown": {
+      "type": "boolean",
+      "selector": "#MainContent_lbFilters span",
+      "control": "exists",
+      "selectContains": "Ukryj filtry"
+    }
+  },
+  "connect": []
+}
