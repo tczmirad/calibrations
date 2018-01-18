@@ -27,5 +27,32 @@
         }
       }
     }
+  },
+  "Scheduler": {
+    "type": "object",
+    "properties": {
+      "AreFiltersShown": {
+        "type": "boolean",
+        "selectContains": "Ukryj filtry"
+      },
+      "ClickNow": {
+        "type": "action",
+        "selectContains": "Teraz"
+      },
+      "Items": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "ID": {
+              "type": "string"
+            },
+            "SerialNumber": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
   }
 }

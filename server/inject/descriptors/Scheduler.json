@@ -7,7 +7,7 @@
       "control": "url.CalibrationsSchedule"
     },
     "AreFiltersShown": {
-      "type": "boolean",
+      "type": "identifier",
       "selector": "#MainContent_lbFilters span",
       "control": "exists",
       "selectContains": "Ukryj filtry"
@@ -40,5 +40,15 @@
       }
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "IsScheduler",
+        "AreFiltersShown"
+      ],
+      "screens": [
+        "scheduler"
+      ]
+    }
+  ]
 }

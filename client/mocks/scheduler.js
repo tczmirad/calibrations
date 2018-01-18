@@ -1,3 +1,3 @@
 'use strict';
 window.mocks = window.mocks || {};
-window.mocks.scheduler = window.mocks.scheduler || {};
+window.mocks.Scheduler = window.mocks.Scheduler || {};
