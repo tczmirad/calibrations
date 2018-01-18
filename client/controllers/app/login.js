@@ -7,22 +7,11 @@ function app_login($scope, app, $q) {
     }
   
     $scope.login = function () {
-        $scope.
+        
         $scope.doLogin({
             username: $scope.data.username,
             password: $scope.data.password
         }, false);
     };
-    $scope.doLogin = function (credentials, useWebsocket) {
-        $scope.app.showLoading('Logging in');
-        var username = credentials.username;
-        var password = credentials.password;
-        if (useWebsocket || app.login($scope.data.username, $scope.data.password)) {
-            app.action('login', 'submit', this);
-        }
-    };
-    $scope.doAppLogin = function (credentials) {
-        window.plugins.touchid.save('credentials', JSON.stringify(credentials));
-        $scope.doLogin(credentials, true);
-    };
+   
 }
