@@ -17,6 +17,18 @@
             "selector": "#MainContent_gv tbody tr:not(.header-row) td",
             "control": "property.innerText",
             "selectIndex": 2
+          },
+          "type": {
+            "type": "string",
+            "selector": "#MainContent_gv tbody tr:not(.header-row) td",
+            "control": "property.innerText",
+            "selectIndex": 3
+          },
+          "group": {
+            "type": "string",
+            "selector": "#MainContent_gv tbody tr:not(.header-row) td",
+            "control": "property.innerText",
+            "selectIndex": 6
           }
         }
       }
