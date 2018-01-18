@@ -4,7 +4,7 @@ function app_login($scope, app, $q) {
     app.init($scope);
     if (!$scope.data) {
         $scope.data = {};
-    }
+    } 
   
     $scope.login = function () {
         
