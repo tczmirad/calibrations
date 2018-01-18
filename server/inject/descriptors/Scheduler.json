@@ -20,7 +20,7 @@
     },
     "Items": {
       "type": "array",
-      "selectorAll": "table.main-grid tbody tr",
+      "selectorAll": "table.main-grid tbody tr:not(.header-row)",
       "items": {
         "type": "object",
         "properties": {
